@@ -171,4 +171,4 @@ if st.sidebar.button("Generate Investment Report"):
 with open("investment_app.py", "w") as f:
     f.write(code)
 
-nohup streamlit run investment_app.py --server.port 8501 &>/content/log.txt &
+os.system("nohup streamlit run investment_app.py --server.port 8501 > /content/log.txt 2>&1 &")
