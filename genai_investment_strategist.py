@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1x5HhnfcuDtACyZQm2I_duHsCBiHlDdgz
 """
 
-!pip install streamlit pyngrok yfinance plotly agno
+pip install streamlit pyngrok yfinance plotly agno
 
 code = """
 import os
@@ -180,4 +180,4 @@ if st.sidebar.button("Generate Investment Report"):
 with open("investment_app.py", "w") as f:
     f.write(code)
 
-!nohup streamlit run investment_app.py --server.port 8501 &>/content/log.txt &
+nohup streamlit run investment_app.py --server.port 8501 &>/content/log.txt &
