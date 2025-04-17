@@ -1,5 +1,7 @@
 streamlit
 yfinance
 plotly
-agno
 pyngrok
+agno
+google-genai
+python-dotenv
