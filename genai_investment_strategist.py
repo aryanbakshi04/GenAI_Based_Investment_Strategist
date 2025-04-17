@@ -166,9 +166,7 @@ if st.sidebar.button("Generate Investment Report"):
                           template="plotly_dark")
         st.plotly_chart(fig)
 """
-
-
 with open("investment_app.py", "w") as f:
     f.write(code)
 import os
-os.system("nohup streamlit run investment_app.py --server.port 8501 > log.txt 2>&1 &")
+os.system("nohup streamlit run genai_investment_strategist.py --server.port 8501 > ./log.txt 2>&1 &")
