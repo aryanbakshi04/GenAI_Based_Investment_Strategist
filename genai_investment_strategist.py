@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 
-pip install streamlit pyngrok yfinance plotly agno
-
 code = """
 import os
 import yfinance as yf
