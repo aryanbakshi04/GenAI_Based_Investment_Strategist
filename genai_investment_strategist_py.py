@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+
 
 from dotenv import load_dotenv
 
@@ -9,7 +9,7 @@ from agno.agent import Agent
 from agno.models.google import Gemini
 import plotly.graph_objects as go
 
-# Set your Gemini API key from environment variable (optional)
+
 load_dotenv()
 
 
@@ -128,7 +128,7 @@ def get_final_investment_report(symbols):
     )
     return final_report.content
 
-# --------- Streamlit UI ----------
+# interface
 st.set_page_config(page_title="AI Investment Strategist", page_icon="📈", layout="wide")
 
 st.markdown("""
