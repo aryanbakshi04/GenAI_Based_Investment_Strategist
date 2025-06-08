@@ -1,6 +1,8 @@
 
 
 from dotenv import load_dotenv
+load_dotenv()
+
 
 import os
 import yfinance as yf
@@ -10,7 +12,6 @@ from agno.models.google import Gemini
 import plotly.graph_objects as go
 
 
-load_dotenv()
 
 
 api_key = os.getenv("GOOGLE_API_KEY")
