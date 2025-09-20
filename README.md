@@ -28,8 +28,7 @@ An interactive Streamlit web app that uses **Google's Gemini LLM**, **financial 
 - [Streamlit](https://streamlit.io/) – Web UI  
 - [Google Gemini (via Agno SDK)](https://developers.google.com/) – LLM-based decision logic  
 - [Yahoo Finance](https://pypi.org/project/yfinance/) – Financial data  
-- [Plotly](https://plotly.com/python/) – Data visualization  
-- [pyngrok](https://pyngrok.readthedocs.io/en/latest/) – Public tunnel for Colab usage  
+- [Plotly](https://plotly.com/python/) – Data visualization
 
 ---
 
